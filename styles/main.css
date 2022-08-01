@@ -2885,6 +2885,30 @@ section {
   display: none;
 }
 
+.slider-nav__arrow {
+  stroke: #2A2826;
+  stroke-width: 1.5;
+  cursor: pointer;
+}
+
+.slider-nav__arrow.--disabled {
+  stroke: #EDEDED;
+}
+
+.slider-nav {
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.slider-nav__border {
+  width: 2px;
+  height: 17px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #EDEDED;
+}
+
 @media all and (min-width: 1024px) {
   .fancybox__container {
     --carousel-button-width: 48px;
