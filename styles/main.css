@@ -2899,6 +2899,9 @@ section {
   display: flex;
   padding-top: 20px;
   align-items: center;
+  position: absolute;
+  left: 0;
+  bottom: -15px;
 }
 
 .slider-nav__border {
